@@ -1,0 +1,42 @@
+ul {
+  padding-left:0px;
+}
+
+li{
+  font: size 23px;
+  list-style-type: none;
+  line-height: 1.4;
+  text-decoration: black;
+  padding-left: 0px;
+}
+
+li:hover { 
+  color: rgb(151, 85, 73);
+}
+a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.focus {
+  text-decoration-style: solid;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid 2px gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#first,
+#second {
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
